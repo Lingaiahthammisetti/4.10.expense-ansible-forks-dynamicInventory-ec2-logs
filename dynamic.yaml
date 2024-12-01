@@ -6,3 +6,7 @@
     ansible.builtin.dnf:
       name: postfix
       state: latest
+
+
+
+# ansible-playbook -i aws_ec2.yaml -e ansible_user=ec2-user -e ansible_password=DevOps321 dynamic.yaml
