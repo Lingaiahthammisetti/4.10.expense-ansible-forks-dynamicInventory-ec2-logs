@@ -6,6 +6,10 @@
     ansible.builtin.dnf:
       name: postfix
       state: latest
+  - name: start postfix
+    ansible.builtin.service:
+      name: postfix
+      state: started
 
 
 
