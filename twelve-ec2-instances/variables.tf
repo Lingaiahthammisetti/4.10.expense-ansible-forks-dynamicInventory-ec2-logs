@@ -12,8 +12,8 @@ variable "instances" {
     type     = map
     default = {
         backend-1   = "t2.small"
-        # backend-2   = "t2.micro"
-        # backend-3   = "t2.micro"
+        backend-2   = "t2.micro"
+        backend-3   = "t2.micro"
         # backend-4   = "t2.small"
         # backend-5   = "t2.micro"
         # backend-6   = "t2.micro"
